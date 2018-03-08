@@ -1,0 +1,19 @@
+{
+  "name": "stylelint-config-lagou",
+  "version": "1.0.0",
+  "description": "The following is introduce of **rules**:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoweiTang/stylelint-config-lagou.git"
+  },
+  "author": "ice.tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guoweiTang/stylelint-config-lagou/issues"
+  },
+  "homepage": "https://github.com/guoweiTang/stylelint-config-lagou#readme"
+}
