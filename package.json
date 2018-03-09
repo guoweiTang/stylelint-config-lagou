@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-lagou",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The following is introduce of **rules**:",
   "main": "index.js",
   "scripts": {

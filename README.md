@@ -16,7 +16,7 @@ The following is introduce of **rules**:
 * `[error : block-opening-brace-newline-after] 多行语句块（左大括号）后必须换行`
 * [warn : block-opening-brace-space-before] 语句块（左大括号）开始前必须有空格
 * `[error : declaration-colon-space-after] 属性值之前（冒号后）必须有空格`
-* [warn : rule-empty-line-before] 多行规则的语句块间必须有空行
+<!-- * [warn : rule-empty-line-before] 多行规则的语句块间必须有空行 -->
 
 
 
@@ -25,23 +25,23 @@ The following is introduce of **rules**:
 * [warn : function-calc-no-unspaced-operator] 禁止calc语句中计算符（+、-、*、/）两侧无空格
 * `[error : declaration-no-important] 禁止!important`
 * `[error : media-feature-name-no-unknown] 禁止未知的media名称`
-* `[error : no-duplicate-at-import-rules] 禁止同一个页面中值重复的@import语句`
+* `[error : no-duplicate-at-import-rules] 禁止同一个文件中值重复的@import语句`
 * `[error : no-unknown-animations] 禁止未知的animation-name`
 
 
 #### Structure
-* [warn : selector-max-compound-selectors] 禁止选择器继承关系超过3层
-* `[error : selector-max-id] 禁止ID选择器超过1层`
-* [warn : max-nesting-depth] 禁止选择器嵌套超过3层
+<!-- * [warn : selector-max-compound-selectors] 禁止选择器继承关系超过3层 -->
+* [warn : selector-max-id] 禁止ID选择器超过1层
+<!-- * [warn : max-nesting-depth] 禁止选择器嵌套超过3层 -->
 
 #### Others
-* [warn : number-leading-zero] 禁止不足1的小数整数位有0
-* [warn : number-no-trailing-zero] 禁止小数末尾有0
-* [warn : length-zero-no-unit] 禁止数值0后有单位
+<!-- * [warn : number-leading-zero] 禁止不足1的小数整数位有0 -->
+* `[error : number-no-trailing-zero] 禁止小数末尾有0`
+* `[error : length-zero-no-unit] 禁止数值0后有单位`
 * `[error : color-no-invalid-hex] 禁止无效的十六进制颜色`
 * [warn : color-named] 禁止使用颜色名字
 * `[error : string-no-newline] 禁止同一个字符串内部换行（可用\n代替）`
-* [warn : number-max-precision] 禁止小数尾数超过2位
+* [warn : number-max-precision] 禁止小数尾数超过4位
 * `[error : unit-no-unknown] 禁止未知单位`
 * `[error : property-no-unknown] 禁止未知属性`
 * `[error : selector-pseudo-class-no-unknown] 禁止未知伪类选择器`

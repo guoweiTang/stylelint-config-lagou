@@ -63,18 +63,18 @@ module.exports = {
             }
         ],
         "declaration-colon-space-after": "always",
-        "rule-empty-line-before": [
-            "always-multi-line",
-            {
-                "severity": "warning",
-                "except": [
-                    "first-nested"
-                ],
-                "ignore": [
-                    "after-comment"
-                ]
-            }
-        ],
+        // "rule-empty-line-before": [
+        //     "always-multi-line",
+        //     {
+        //         "severity": "warning",
+        //         "except": [
+        //             "first-nested"
+        //         ],
+        //         "ignore": [
+        //             "after-comment"
+        //         ]
+        //     }
+        // ],
         "function-calc-no-unspaced-operator": [
             true,
             {
@@ -85,36 +85,35 @@ module.exports = {
         "media-feature-name-no-unknown": true,
         "no-duplicate-at-import-rules": true,
         "no-unknown-animations": true,
-        "selector-max-compound-selectors": [
-            3,
+        // "selector-max-compound-selectors": [
+        //     3,
+        //     {
+        //         "severity": "warning"
+        //     }
+        // ],
+        "selector-max-id": [
+            1,
             {
                 "severity": "warning"
             }
         ],
-        "selector-max-id": 1,
-        "max-nesting-depth": [
-            3,
-            {
-                "severity": "warning"
-            }
-        ],
-        "number-leading-zero": [
-            "never",
-            {
-                "severity": "warning"
-            }
-        ],
+        // "max-nesting-depth": [
+        //     3,
+        //     {
+        //         "severity": "warning"
+        //     }
+        // ],
+        // "number-leading-zero": [
+        //     "never",
+        //     {
+        //         "severity": "warning"
+        //     }
+        // ],
         "number-no-trailing-zeros": [
-            true,
-            {
-                "severity": "warning"
-            }
+            true
         ],
         "length-zero-no-unit": [
-            true,
-            {
-                "severity": "warning"
-            }
+            true
         ],
         "color-no-invalid-hex": true,
         "color-named": [
@@ -125,22 +124,38 @@ module.exports = {
         ],
         "string-no-newline": true,
         "number-max-precision": [
-            2,
+            4,
             {
                 "severity": "warning"
             }
         ],
-        "unit-no-unknown": true,
+        "unit-no-unknown": [
+            true,
+            {
+                "severity": "warning"
+            }
+        ],
         "property-no-unknown": [
             true,
             {
                 "ignoreProperties": [
                     "linear-gradient"
-                ]
+                ],
+                "severity": "warning"
             }
         ],
-        "selector-pseudo-class-no-unknown": true,
-        "selector-pseudo-element-no-unknown": true,
+        "selector-pseudo-class-no-unknown": [
+            true,
+            {
+                "severity": "warning"
+            }
+        ],
+        "selector-pseudo-element-no-unknown": [
+            true,
+            {
+                "severity": "warning"
+            }
+        ],
         "declaration-block-no-duplicate-properties": [
             true,
             {
