@@ -1,4 +1,6 @@
 # stylelint-config-lagou
+A simple configuration based on [configuring stylelint](https://stylelint.io/user-guide/configuration/)
+
 ### Rules
 The following is introduce of **rules**:
 
@@ -15,7 +17,7 @@ The following is introduce of **rules**:
 * [warn : block-closing-brace-empty-line-before] 语句块（右大括号）结束前一行不能是空行
 * `[error : block-opening-brace-newline-after] 多行语句块（左大括号）后必须换行`
 * [warn : block-opening-brace-space-before] 语句块（左大括号）开始前必须有空格
-* `[error : declaration-colon-space-after] 属性值之前（冒号后）必须有空格`
+* [warn : declaration-colon-space-after] 属性值之前（冒号后）必须有空格
 <!-- * [warn : rule-empty-line-before] 多行规则的语句块间必须有空行 -->
 
 

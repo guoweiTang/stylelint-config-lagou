@@ -62,7 +62,12 @@ module.exports = {
                 "severity": "warning"
             }
         ],
-        "declaration-colon-space-after": "always",
+        "declaration-colon-space-after": [
+            "always",
+            {
+                "severity": "warning"
+            }
+        ],
         // "rule-empty-line-before": [
         //     "always-multi-line",
         //     {
